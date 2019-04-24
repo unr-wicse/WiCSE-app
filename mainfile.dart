@@ -17,13 +17,16 @@ class MyApp extends StatelessWidget {
       //text style for headlines, titles, bodies of text
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('WiCSE Homepage'),
-        ),
+        backgroundColor: Colors.indigo[100],
+        //appBar: AppBar(
+          //title: Text('WiCSE Homepage'),
+        //),
         body: Center(
           child: Text('EHHUUUEEHHHHH :P'), 
         ),
       ),
     );
+
   }
 }
+
